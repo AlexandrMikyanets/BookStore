@@ -41,10 +41,11 @@ public class Main {
                     System.out.println("Введете number:");
                     int x = scanner.nextInt();
                     BookStoreDB.deleteByNumber(x);
+                    DBUtils.getConnection();
                     break;
 
                 case "4":
-
+                    DBUtils.getConnection();
                     break;
 
                 case "5":
@@ -55,7 +56,7 @@ public class Main {
                     break;
 
                 case "6":
-
+                    DBUtils.getConnection();
                     break;
 
                 default:
